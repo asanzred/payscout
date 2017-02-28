@@ -1,6 +1,5 @@
 {
     "name": "asanzred/payscout",
-    "minimum-stability": "dev",
     "type": "library",
     "description": "Laravel 5 Wrapper for Payscout Payments",
     "keywords": [
@@ -27,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "asanzred\\payscout\\": "src"
+            "Asanzred\\Payscout\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "asanzred\\payscout\\": "tests"
+            "Asanzred\\Payscout\\": "tests"
         }
     },
     "scripts": {
@@ -47,5 +46,6 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "minimum-stability": "dev"
 }
