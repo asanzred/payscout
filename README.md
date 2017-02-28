@@ -37,7 +37,7 @@ and instead on aliases
 Publish the config by running:
 
 ``` bash
-    php artisan config:publish asanzred/payscout
+    php artisan vendor:publish --provider="Asanzred\Payscout\PayscoutServiceProvider"
 ```
 
 ## Usage
