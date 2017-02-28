@@ -57,7 +57,7 @@ class PayscoutServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->registerIngenico();
+        $this->registerPayscout();
         
         //use this if your package has a config file
         config([
@@ -65,7 +65,7 @@ class PayscoutServiceProvider extends ServiceProvider
         ]);
     }
 
-    private function registerIngenico()
+    private function registerPayscout()
     {
         $this->app->bind('payscout',function($app){
             return new Payscout($app);
