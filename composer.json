@@ -1,18 +1,18 @@
 {
-    "name": "asanzred/payscout",
+    "name": "smallworldfs/payscout",
     "type": "library",
     "description": "Laravel 5 Wrapper for Payscout Payments",
     "keywords": [
-        "asanzred",
+        "smallworldfs",
         "payscout"
     ],
-    "homepage": "https://github.com/asanzred/payscout",
+    "homepage": "https://github.com/smallworldfs/payscout",
     "license": "MIT",
     "authors": [
         {
             "name": "Alberto Sanz Redondo",
-            "email": "asanzred@gmail.com",
-            "homepage": "https://github.com/asanzred",
+            "email": "smallworldfs@gmail.com",
+            "homepage": "https://github.com/smallworldfs",
             "role": "Developer"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asanzred\\Payscout\\": "src"
+            "Smallworldfs\\Payscout\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asanzred\\Payscout\\": "tests"
+            "Smallworldfs\\Payscout\\": "tests"
         }
     },
     "scripts": {

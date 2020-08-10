@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Payscout\Http\Controllers;
+namespace Smallworldfs\Payscout\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;

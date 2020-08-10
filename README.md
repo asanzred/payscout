@@ -1,4 +1,4 @@
-# asanzred/payscout
+# smallworldfs/payscout
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -9,7 +9,7 @@
 Via Composer
 
 ``` bash
-$ composer require asanzred/payscout
+$ composer require smallworldfs/payscout
 ```
 
 Add ServiceProvider in your `app.php` config file.
@@ -18,7 +18,7 @@ Add ServiceProvider in your `app.php` config file.
 // config/app.php
 'providers' => [
     ...
-    Asanzred\Payscout\PayscoutServiceProvider::class,
+    Smallworldfs\Payscout\PayscoutServiceProvider::class,
 ]
 ```
 
@@ -28,7 +28,7 @@ and instead on aliases
 // config/app.php
 'aliases' => [
     ...
-    'Payscout'           => Asanzred\Payscout\Facade::class,
+    'Payscout'           => Smallworldfs\Payscout\Facade::class,
 ]
 ```
 
@@ -37,7 +37,7 @@ and instead on aliases
 Publish the config by running:
 
 ``` bash
-    php artisan vendor:publish --provider="Asanzred\Payscout\PayscoutServiceProvider"
+    php artisan vendor:publish --provider="Smallworldfs\Payscout\PayscoutServiceProvider"
 ```
 
 ## Usage
@@ -61,7 +61,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Security
 
-If you discover any security related issues, please email asanzred@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email smallworldfs@gmail.com instead of using the issue tracker.
 
 ## Credits
 
@@ -72,12 +72,12 @@ If you discover any security related issues, please email asanzred@gmail.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/asanzred/payscout.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/smallworldfs/payscout.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/asanzred/payscout.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/smallworldfs/payscout.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/asanzred/payscout
-[link-downloads]: https://packagist.org/packages/asanzred/payscout
-[link-author]: https://github.com/asanzred
+[link-packagist]: https://packagist.org/packages/smallworldfs/payscout
+[link-downloads]: https://packagist.org/packages/smallworldfs/payscout
+[link-author]: https://github.com/smallworldfs
 [link-contributors]: ../../contributors
 

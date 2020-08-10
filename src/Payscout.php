@@ -1,4 +1,4 @@
-<?php namespace Asanzred\Payscout;
+<?php namespace Smallworldfs\Payscout;
 
 use Config;
 class Payscout

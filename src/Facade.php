@@ -1,5 +1,5 @@
 <?php
-namespace Asanzred\Payscout;
+namespace Smallworldfs\Payscout;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 

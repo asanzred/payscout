@@ -1,6 +1,6 @@
 <?php
 
-namespace Asanzred\Payscout;
+namespace Smallworldfs\Payscout;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
@@ -25,7 +25,7 @@ class PayscoutServiceProvider extends ServiceProvider
         $this->setupRoutes($this->app->router);
         
         
-        //php artisan vendor:publish --provider="Asanzred\Payscout\PayscoutServiceProvider"
+        //php artisan vendor:publish --provider="Smallworldfs\Payscout\PayscoutServiceProvider"
         $this->publishes([
                 __DIR__.'/config/payscout.php' => config_path('payscout.php'),
         ]);
@@ -44,7 +44,7 @@ class PayscoutServiceProvider extends ServiceProvider
      */
     public function setupRoutes(Router $router)
     {
-        $router->group(['namespace' => 'Asanzred\Payscout\Http\Controllers'], function($router)
+        $router->group(['namespace' => 'Smallworldfs\Payscout\Http\Controllers'], function($router)
         {
             require __DIR__.'/Http/routes.php';
         });
